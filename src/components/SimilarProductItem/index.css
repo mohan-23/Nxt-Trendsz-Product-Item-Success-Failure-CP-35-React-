@@ -1,0 +1,39 @@
+.product-item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.image {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title-product {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.brand-product {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.price-cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-product {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
